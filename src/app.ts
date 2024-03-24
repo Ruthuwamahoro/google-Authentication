@@ -13,7 +13,7 @@ console.log(passportSetup)
 
 app.use(express.json());
 app.use('/api/auth', router)
-app.use('/api/user', routerUser)
+app.use('/api/auth', routerUser)
 
 
 
