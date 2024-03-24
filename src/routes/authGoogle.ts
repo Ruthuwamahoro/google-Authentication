@@ -10,7 +10,7 @@ router.get('/google', passport.authenticate("google", {
 router.get('/google/redirect',passport.authenticate("google", {failureRedirect:"/login"}), (req,res) => {
     // The request will be redirected to the callback URL.
     console.log("\n\n\n--------google authentication\n\n\n")
-    res.redirect("google redirect")
+    res.redirect("/message")
 
 })
 

@@ -2,7 +2,7 @@ import express from 'express';
 import router from './routes/authGoogle'
 import  passportSetup from './passportconfig/passport-setup'
 import routerUser from './routes/updateUser';
-// import { }
+
 
 import dotenv from 'dotenv';
 dotenv.config();
