@@ -39,7 +39,7 @@ async function sendEmailNotification(updatedUserInfo: User) {
 
     Updated details:
     - Username: ${updatedUserInfo.userName}
-    - Profile Picture: ${updatedUserInfo.profilePicture}  // Assuming profilePicture is a URL
+    - Profile Picture: ${updatedUserInfo.profilePicture}
 
     If you did not initiate this update, please contact us immediately.
 
